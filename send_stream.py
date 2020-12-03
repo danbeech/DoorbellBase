@@ -55,7 +55,7 @@ while True:
 	# grab the frame from the threaded video stream and resize it
 	# to have a maximum width of 500 pixels
 	frame = vs.read()
-	frame = imutils.resize(frame, width=800)
+	frame = imutils.resize(frame, width=500)
 	orig = frame.copy()
 
 	# prepare the frame for object detection by converting (1) it
