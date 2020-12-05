@@ -117,7 +117,7 @@ while True:
 
 	# send the output frame and wait for a key press
 	sender.send_image(rpiName, orig)
-	time.sleep(0.05)
+	time.sleep(0.1)
 	key = cv2.waitKey(1) & 0xFF
 
 	# if the `q` key was pressed, break from the loop
